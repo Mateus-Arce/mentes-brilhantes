@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentes Brilhantes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO COM NAVEGAÇÃO -->
+  <header class="header">
+    <div class="logo">
+      <h1>Mentes Brilhantes</h1>
+    </div>
+    <nav class="nav">
+      <a href="#home" class="nav-btn">Home</a>
+      <a href="#descobertas" class="nav-btn">Descobertas</a>
+      <a href="#sobre" class="nav-btn">Sobre</a>
+    </nav>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL (MAIN) -->
+  <main>
+
+    <!-- BANNER HERO COM X GRANDE -->
+    <section id="home" class="hero-section">
+      <div class="hero-card">
+        <img src="images/cosmos.png" alt="Banner Principal" class="hero-img">
+      </div>
+    </section>
+
+    <!-- GRADE DE 3 PESQUISADORES COM NOME E BOTÃO -->
+    <section class="researchers-section">
+      <div class="researchers-grid">
+
+        <!-- CARD 1 -->
+        <article class="researcher-card">
+          <div class="card-img-wrapper">
+            <img src="images/tesla.jpg" alt="Nikola Tesla" class="card-img">
+          </div>
+          <div class="card-body">
+            <h3 class="researcher-name">Nikola Tesla</h3>
+            <a href="#descobertas" class="btn">Ver Produções</a>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="researcher-card">
+          <div class="card-img-wrapper">
+            <img src="images/ramanujan.png" alt="Srinivasa Ramanujan" class="card-img">
+          </div>
+          <div class="card-body">
+            <h3 class="researcher-name">Srinivasa Ramanujan</h3>
+            <a href="#descobertas" class="btn">Ver Produções</a>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="researcher-card">
+          <div class="card-img-wrapper">
+            <img src="images/turing.jpg" alt="Alan Turing" class="card-img">
+          </div>
+          <div class="card-body">
+            <h3 class="researcher-name">Alan Turing</h3>
+            <a href="#descobertas" class="btn">Ver Produções</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO DESCOBERTAS (3 COLUNAS DE TEXTO) -->
+    <section id="descobertas" class="discoveries-section">
+      <div class="discoveries-grid">
+
+        <div class="discovery-item">
+          <h3>Descoberta 1</h3>
+          <p>Sistemas de corrente alternada e desenvolvimento de motores elétricos que revolucionaram a distribuição de energia.</p>
+        </div>
+
+        <div class="discovery-item">
+          <h3>Descoberta 2</h3>
+          <p>Identidades matemáticas e séries infinitas para aproximação de constantes fundamentais como o número Pi.</p>
+        </div>
+
+        <div class="discovery-item">
+          <h3>Descoberta 3</h3>
+          <p>Modelos computacionais teóricos e métodos criptográficos fundamentais para a ciência da computação.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO EXIGIDO NO ENUNCIADO (2 CAMPOS E BOTÃO) -->
+    <section id="sobre" class="form-section">
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="matricula">Matrícula</label>
+          <input type="text" id="matricula" name="matricula" value="915736" placeholder="Sua Matrícula" required>
+        </div>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" value="Mateus Arce Alves" placeholder="Seu Nome" required>
+        </div>
+        <button type="submit" class="btn btn-submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <p>Matrícula: <strong>915736</strong> | Nome: <strong>Mateus Arce Alves</strong></p>
+  </footer>
+
+</body>
+</html>
